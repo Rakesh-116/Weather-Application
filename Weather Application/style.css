@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Inter Tight";
+}
+
+.bg-container{
+    background-color: rgb(36, 33, 33);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 200px;
+}
+
+.weather-card{
+    background-image: linear-gradient(rgb(12, 138, 113), rgb(0, 119, 255));
+    padding: 25px;
+    border-radius: 10px;
+    height:500px;
+    width:340px;
+}
+
+.search-bar{
+    display: flex;
+}
+
+.inputBox{
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    width:250px;
+}
+
+.search-bg{
+    background-color: white;
+    color:rgb(143, 140, 140);
+    padding: 5px;
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.img1{
+    width:200px;
+}
+
+.img2{
+    width: 35px;
+    height: 35px;
+    margin: 8px;
+}
+
+.h1{
+    color:white;
+    font-size: 45px;
+}
+
+.h2{
+    color:white;
+    font-size: 15px;
+}
+
+.h3{
+    color: white;
+    font-size: 25px;
+}
+
+.ele{
+    display: flex;
+    margin:30px;
+}
+
+.dis{
+    display: flex;
+    margin: 10px;
+}
